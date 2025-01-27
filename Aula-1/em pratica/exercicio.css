@@ -16,8 +16,8 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    height: 100%;
+    width: 80%;
+    height: auto;
 }
 
 .Cadastro-produtos{
@@ -30,9 +30,7 @@ h1{
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 10, 0.7, 0.5);
-
-
-
+    width: 60%;
 }
 
 #name{
@@ -87,7 +85,6 @@ h1{
     cursor: pointer;
 }
 
-
 #botton-limpar:hover{
     background-color: rgb(108, 181, 170);
 }
@@ -100,23 +97,21 @@ aside{
     align-items:center;
     justify-content: center;
     padding: 5px;
-    width: 30%;
-    height: 420px;
-    margin-left: 700px;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
     margin-bottom: 30px;
-    margin-top:-430px;
+    margin-top: 20px;
     border-radius: 10px;
-
-
 }
 
 .conteiner-estoque{
-    width: 300px; /* Define uma largura fixa */
-    height: 200px; /* Define uma altura fixa */
-    overflow: auto; /* Adiciona barras de rolagem quando o conteúdo ultrapassa o tamanho da div */
-    border: 1px solid #ccc; /* Apenas para visualização */
-    padding: 10px; /* Espaçamento interno */
-    box-sizing: border-box; /* Garante que padding e borda não afetem o tamanho da div */
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .titulo-estoque{
@@ -126,25 +121,25 @@ aside{
     align-items: flex-start; 
     justify-content: flex-start; 
     padding: 10px;
-    
-    
 }
+
+
 
 .tabela-estoque{
     background-color: rgb(108, 181, 170);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 10, 0.7, 0.5);
+    width: 90%;
+    height: auto;
+    overflow: auto;
+    
+
+    
 }
 
-th{
-    background-color: rgb(98, 133, 127);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    justify-content: flex-start; 
-   
-    box-shadow: 0px 0px 10px rgba(0, 10, 0.7, 0.5);
-
-}

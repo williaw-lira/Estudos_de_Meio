@@ -3,35 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro de Produtos</title>
     <link rel="stylesheet" href="exercicio.css">
 </head>
 <body>
-
-    <h1>Exercicio</h1>
-
+    <h1>Cadastro de Produtos</h1>
     <article>
         <div class="conteiner-cadastro">
-            <h3>Cadastro de produtos</h3>
-            <div class = "Cadastro-produtos">
-                <form action="">
+            <h3>Cadastro de Produtos</h3>
+            <div class="Cadastro-produtos">
+                <form id="form-cadastro" onsubmit="event.preventDefault(); cadastrar();">
                     <label for="name">Nome do Produto</label>
-                        <input type="text" id="name" name="nome"><br><br>
+                    <input type="text" id="name" name="nome" required><br><br>
 
                     <label for="quantidade">Quantidade</label>
-                        <input type="number" id="quantidade" name="quantidade"><br><br>
+                    <input type="number" id="quantidade" name="quantidade" required><br><br>
 
-                    <label for="preco">Preço</label>
-                        <input type="number" id="preco" name="preco"><br><br>
+                    <label for="preco">Preço</label>
+                    <input type="number" id="preco" name="preco" step="0.01" required><br><br>
 
                     <label for="validade">Validade</label>
-                        <input type="date" id="validade" name="validade"><br><br>
+                    <input type="date" id="validade" name="validade" required><br><br>
 
                     <label for="categoria">Categoria</label>
-                        <input type="text" id="categoria" name="categoria"><br><br>
-                        
-                    <button id ="botton-cadastrar" type="submit">Cadastrar</button>
-                    <button id ="botton-limpar" type="reset">Limpar</button>
+                    <input type="text" id="categoria" name="categoria" required><br><br>
+
+                    <button id="botton-cadastrar" type="submit">Cadastrar</button>
+
                 </form>
             </div>
         </div>
@@ -40,22 +38,7 @@
     <aside>
         <div class="conteiner-estoque">
             <h3 class="titulo-estoque">Estoque</h3>
-                <table class="tabela-estoque">
-                    <thead>
-                        <tr>
-                            <th>Nome</th>
-                            <th>Quantidade</th>
-                            <th>Preço</th>
-                            <th>Validade</th>
-                            <th>Categoria</th>
-                        </tr>
-                    </thead>
-
-                    <tbody id="tabela-estoque">
-
-
-                    </tbody>
-                </table>
+            <div id="tabela-estoque" class="tabela-estoque"></div>
         </div>
     </aside>
 
