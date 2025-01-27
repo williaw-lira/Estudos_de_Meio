@@ -1,0 +1,16 @@
+[
+    {   
+    "class": "Aluno",
+    "nome": "william",
+    "idade": 20,
+    "id": 1,
+    "esta_trabalhando": true,
+    "hobbies": ["Programar","Jogar","fazer musica"],
+    "detalhes_do_aluno":{
+        "profissao": "Desenvolvedor",
+        "telefone": "999999999",
+        "empresa": "exemplo"
+        }
+    }
+]
+

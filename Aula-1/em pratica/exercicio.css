@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(205, 248, 232);
+}
+
+h1{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    color: rgb(108, 181, 170);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.conteiner-cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.Cadastro-produtos{
+    background-color: rgb(108, 181, 170);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 10, 0.7, 0.5);
+
+
+
+}
+
+#name{
+    width: 100%;
+    height: 100%;
+}
+
+#quantidade{
+    width: 100%;
+    height: 100%;
+}
+
+#preco{
+    width: 100%;
+    height: 100%;
+}
+
+#validade{
+    width: 100%;
+    height: 100%;
+}
+
+#categoria{
+    width: 100%;
+    height: 100%;
+}
+
+#botton-cadastrar{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(93, 143, 135);
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 0px 0px 10px rgba(0, 10, 0.7, 0.5);
+    cursor: pointer;
+}
+
+#botton-cadastrar:hover{
+    background-color: rgb(108, 181, 170);
+}
+
+#botton-limpar{
+    padding: 10px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(93, 143, 135);
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 0px 0px 10px rgba(0, 10, 0.7, 0.5);
+    cursor: pointer;
+}
+
+
+#botton-limpar:hover{
+    background-color: rgb(108, 181, 170);
+}
+
+aside{
+    background-color:transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display :flex ;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 5px;
+    width: 30%;
+    height: 420px;
+    margin-left: 700px;
+    margin-bottom: 30px;
+    margin-top:-430px;
+    border-radius: 10px;
+
+
+}
+
+.conteiner-estoque{
+    width: 300px; /* Define uma largura fixa */
+    height: 200px; /* Define uma altura fixa */
+    overflow: auto; /* Adiciona barras de rolagem quando o conteúdo ultrapassa o tamanho da div */
+    border: 1px solid #ccc; /* Apenas para visualização */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Garante que padding e borda não afetem o tamanho da div */
+}
+
+.titulo-estoque{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    padding: 10px;
+    
+    
+}
+
+.tabela-estoque{
+    background-color: rgb(108, 181, 170);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 10, 0.7, 0.5);
+}
+
+th{
+    background-color: rgb(98, 133, 127);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+   
+    box-shadow: 0px 0px 10px rgba(0, 10, 0.7, 0.5);
+
+}
